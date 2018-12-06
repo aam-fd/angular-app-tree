@@ -1,0 +1,28 @@
+ul {
+  list-style: none;
+}
+
+li {
+  cursor: default;
+}
+
+.folder {
+  font-weight: bold;
+}
+
+.folder:hover {
+  cursor: pointer;
+}
+
+.folder_closed::before {
+  content: '+ ';
+}
+
+.folder_opened::before {
+  content: '- ';
+}
+
+.loading {
+  margin-top: 16px;
+  padding-left: 40px;
+}
